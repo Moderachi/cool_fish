@@ -1,0 +1,80 @@
+.product-btns{
+    display: table; 
+    margin: auto 0 0 auto;
+ }
+.product-desc p{
+    margin: 50px auto;
+    max-height: 200px;
+}
+.product-img{
+    min-width: 400px;
+    max-width: 400px;
+}
+
+
+.product-items{
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    -webkit-align-content: flex-end; 
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-end;
+}
+.view-product img{
+    width: 80%;
+    margin: 30px;
+    max-width: 300px;
+}
+.productinfo img{
+    max-width: 90%;
+    margin: 20px;
+    height: 150px;
+}
+.product-item{
+    margin-bottom: 30px;
+    width: 25%;
+}
+.product-information p{
+    display: inline;
+    margin-right: 50px;
+    font-size: 14px;
+    color: #444;
+}
+.productinfo p, .productinfo a{
+    font-size: 16px;
+    text-align: center;
+    white-space: nowrap; /* Отменяем перенос текста */
+    overflow: hidden; /* Обрезаем содержимое */
+    padding: 5px; /* Поля */
+    color: #444;
+    text-overflow: ellipsis; /* Многоточие */
+    max-width: 90%;
+}
+a.add-to-cart, .btn{
+    background-color: #488;
+    padding: 10px 15px;
+    color: #fff;
+}
+a.add-to-cart:hover, .btn:hover{
+    background-color: #4444;
+    color: #444;
+    cursor: pointer;
+}
+
+.product-price{
+    font-size: 20px;
+    display: block;
+    margin-right: 50px;
+}
+
+.show-info{
+    margin: 20px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+.show-info:hover{
+    color: #4444;
+}
